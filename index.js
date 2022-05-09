@@ -58,6 +58,8 @@ app.get('/', (req, res) => {
     res.send('Running warehouse server')
 });
 
+// add listening
+
 app.listen(port, () => {
     console.log('listening to port', port);
 })
